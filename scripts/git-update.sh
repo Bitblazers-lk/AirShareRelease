@@ -5,8 +5,8 @@ cd "$(dirname "$0")"
 cd ..
 
 git reset --hard 
-git switch Release
-git pull origin Release
+# git switch Release
+git pull origin 
 
 
 git status
