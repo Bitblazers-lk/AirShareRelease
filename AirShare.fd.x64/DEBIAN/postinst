@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rm -f -d -r /usr/share/AirShare/AirShareRelease
+
+mkdir -p /usr/share/AirShare/
+cd /usr/share/AirShare
+rm -f -d AirShareRelease
+git clone --single-branch --branch linux64fd --depth 1 https://github.com/Bitblazers-lk/AirShareRelease 

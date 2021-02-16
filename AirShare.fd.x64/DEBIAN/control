@@ -1,0 +1,8 @@
+Package: airshare
+Architecture: all
+Description: Share files over network. Web front-end. Open-Source
+Maintainer: Bitblazers
+Priority: extra
+Section: utils
+Version: 1.0.0
+Depends: git , screen , dotnet-runtime-5.0 
