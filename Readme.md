@@ -2,9 +2,8 @@
 
 Share Files over network
 
-Repositories
-https://github.com/Bitblazers-lk/AirShare
-https://github.com/Bitblazers-lk/AirShareRelease
+Source Repository https://github.com/Bitblazers-lk/AirShare 
+Release Repository https://github.com/Bitblazers-lk/AirShareRelease 
 
 ## Download for Linux
 
