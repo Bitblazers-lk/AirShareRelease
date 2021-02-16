@@ -6,4 +6,4 @@ Source Repository https://github.com/Bitblazers-lk/AirShare
 
 Release Repository https://github.com/Bitblazers-lk/AirShareRelease
 
-# Windows x64 Self Contained
+# OS X x64 Self Contained
