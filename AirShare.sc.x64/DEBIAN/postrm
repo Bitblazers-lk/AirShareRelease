@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rm -f -d -r /usr/share/AirShare
