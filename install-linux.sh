@@ -5,7 +5,7 @@ rm -f -d -r /usr/share/AirShare/AirShareRelease
 
 mkdir -p /usr/share/AirShare/
 cd /usr/share/AirShare
-git clone --single-branch --branch linux64sc --depth 1 https://github.com/Bitblazers-lk/AirShareRelease 
+git clone --single-branch --branch linux64fd --depth 1 https://github.com/Bitblazers-lk/AirShareRelease 
 
 sudo chmod +x /usr/share/AirShare/AirShareRelease/AirShare
 
