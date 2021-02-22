@@ -1,21 +1,21 @@
 #!/bin/bash
 
 
-rm -f -d -r /usr/share/AirShare/AirShareRelease
+rm -f -d -r ~/.local/share/AirShare/AirShareRelease
 
-sudo mkdir -p /usr/local/bin/
-sudo cp -f -r ./shell-installed/* /usr/local/bin/
+mkdir -p ~/.local/bin/
+cp -f -r ./shell-installed/* ~/.local/bin/
 
-sudo chmod +x /usr/local/bin/airshare
-sudo chmod +x /usr/local/bin/airshare-update
-sudo chmod +x /usr/local/bin/airshare-autostart
+chmod +x ~/.local/bin/airshare
+chmod +x ~/.local/bin/airshare-update
+chmod +x ~/.local/bin/airshare-autostart
 
 
-mkdir -p /usr/share/AirShare/
-cd /usr/share/AirShare
+mkdir -p ~/.local/share/AirShare/
+cd ~/.local/share/AirShare/
 git clone --single-branch --branch linux64sc --depth 1 https://github.com/Bitblazers-lk/AirShareRelease 
 
-sudo chmod +x /usr/share/AirShare/AirShareRelease/AirShare
+chmod +x ~/.local/share/AirShare/AirShareRelease/AirShare
 
 
 echo "Completed"

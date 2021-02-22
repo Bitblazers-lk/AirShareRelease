@@ -1,9 +1,9 @@
 #!/bin/bash
 
-sudo rm -f -r /usr/share/AirShare/
+rm -f -r ~/.local/share/AirShare/
 
-sudo rm -f /usr/local/bin/airshare
-sudo rm -f /usr/local/bin/airshare-update
-sudo rm -f /usr/local/bin/airshare-autostart
+rm -f ~/.local/bin/airshare
+rm -f ~/.local/bin/airshare-update
+rm -f ~/.local/bin/airshare-autostart
 
 echo "Uninstall Completed"
