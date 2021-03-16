@@ -13,7 +13,7 @@ sudo chmod +x /usr/local/bin/airshare-autostart
 
 mkdir -p /usr/share/AirShare/
 cd /usr/share/AirShare
-git clone --single-branch --branch linux64sc --depth 1 https://github.com/Bitblazers-lk/AirShareRelease 
+git clone --single-branch --branch linuxarmsc --depth 1 https://github.com/Bitblazers-lk/AirShareRelease 
 
 sudo chmod +x /usr/share/AirShare/AirShareRelease/AirShare
 
