@@ -1,4 +1,5 @@
 # AirShare
+
 ### Share, View and Manage your files over web
 
 Source Repository https://github.com/Bitblazers-lk/AirShare
@@ -18,7 +19,7 @@ Release Repository https://github.com/Bitblazers-lk/AirShareRelease
 
 ## Usage
 
-#### Start AirShare, open a browser and visit http://localhost:36120 
+#### Start AirShare, open a browser and visit http://localhost:36120
 
 | OS      | Start              | Update            | Auto-Start           | Visit                  |
 | ------- | ------------------ | ----------------- | -------------------- | ---------------------- |
@@ -27,20 +28,28 @@ Release Repository https://github.com/Bitblazers-lk/AirShareRelease
 | OS X    | Run `AirShare`     |                   |                      | http://localhost:36120 |
 
 #### Setting up
-*Only on **windows** - When you run AirShare for the first time windows will ask you to give **Firewall** permissions. Tick **both checkboxes** and Click [Allow]* 
 
-When you open AirShare webapp for the first time, You will be asked to enter a **new password**. Carefully enter a strong password that no one can guess. Memmorize your password. **Never re-use passwords.**
+_Only on **windows** - When you run AirShare for the first time windows will ask you to give **Firewall** permissions. Tick **both checkboxes** and Click [Allow]_
+
+When you open AirShare webapp for the first time, You will be asked to enter a **new password**. Carefully enter a strong password that no one can guess. Memorize your password. **Never re-use passwords.**
+
+### Default username : `admin`
+
 
 #### Connect from another device
-Connect your friends' computer to the **same network** (same WIFI or Hotspot) and open `Your IP Address : 36120` from his computer. 
+
+Connect your friends' computer to the **same network** (same WIFI or Hotspot) and open `Your IP Address : 36120` from his computer.
+
 Example - if your IP is `192.168.1.3` then open `192.168.1.3:36120` on friends' computer
 
 ##### How to find my IP address?
-Windows - Open Command Prompt and enter `ipconfig`
-Linux - Open Terminal and enter `ip a`
-[Learn more about finding my ip](https://www.computerhope.com/issues/ch000483.htm) 
 
-Advanced users only - Forward port `36120` to internet to access from anywhere  
+Windows - Open Command Prompt and enter `ipconfig`
+
+Linux - Open Terminal and enter `ip a`
+[Learn more about finding my ip](https://www.computerhope.com/issues/ch000483.htm)
+
+Advanced users only - Forward port `36120` to internet to access from anywhere
 
 ## Download for Advanced users
 
@@ -75,6 +84,7 @@ Advanced users only - Forward port `36120` to internet to access from anywhere
   1.  Run command `airshare` to start
 
 - Linux Generic Framework dependent
+
   1. Install dotnet runtime 5.0 (Installation scripts are in this repo)
   1. Install `git` and `screen`
   1. Run
